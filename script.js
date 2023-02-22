@@ -4,4 +4,5 @@ function buyProduct( productCount , productPrice , credit){
     console.log(buy)
 }
 
-buyProduct( 3 , 200 , 5000)
+
+buyProduct( 3 , 100 , 5000)
