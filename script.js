@@ -1,17 +1,24 @@
-//Constructor Function
+//object
 
-function Users(name, family, id ){
-    this.name = name;
-    this.family = family;
-    this.id = id;
-    this.registration = function(){
-        console.log('ثبت نام با موفقیت انجام شد')
+const users = {
+    user1 :{
+        name :'faeze',
+        family : 'bolghanabady',
+        id : 23 ,
+    },
+    user2 :{
+        name :'sina',
+        family : 'porjalal',
+        id : 23 ,
+    },
+    user3 :{
+        name :'mahdi',
+        family : 'khomarian',
+        id : 23 ,
     }
-
 }
 
-const user = new Users('faeze' , 'bolghanabady' , 23);
-console.log(user)
+users.user1.id = 22;
+ delete users.user2.family
 
-const user1 = new Users('sina' , 'porjalal' , 24)
-console.log(user1)
+console.log(users);
