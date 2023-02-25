@@ -1,12 +1,17 @@
+//Constructor Function
 
-//تمرینی برای  عملگر ها که در آن چنانچه کاربر پول کافی داشته باشد و محصول نیز وجود داشته باشد 
-//به عبارتی هر دو شرط برقرار باشد مقدار true 
-//وگرنه مقدار false
-function buyProduct( productCount , productPrice , credit){
-    
-    let buy = productCount > 0 &&  credit > productPrice ;
-    console.log(buy)
+function Users(name, family, id ){
+    this.name = name;
+    this.family = family;
+    this.id = id;
+    this.registration = function(){
+        console.log('ثبت نام با موفقیت انجام شد')
+    }
+
 }
 
+const user = new Users('faeze' , 'bolghanabady' , 23);
+console.log(user)
 
-buyProduct( 3 , 100 , 5000)
+const user1 = new Users('sina' , 'porjalal' , 24)
+console.log(user1)
