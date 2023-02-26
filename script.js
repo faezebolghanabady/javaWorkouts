@@ -18,5 +18,10 @@ const users = {
     }
 }
 
-let userKey = Object.keys(users)
-console.log(userKey)
+//چک کردن یک پراپرتی در یک آبجکت
+if('user1' in users){
+    console.log('yes')
+    console.log('user1' in users)
+}else{
+    console.log('No')
+}
