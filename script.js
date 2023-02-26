@@ -18,7 +18,5 @@ const users = {
     }
 }
 
-users.user1.id = 22;
- delete users.user2.family
-
-console.log(users);
+let userKey = Object.keys(users)
+console.log(userKey)
