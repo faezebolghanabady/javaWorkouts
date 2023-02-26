@@ -18,10 +18,6 @@ const users = {
     }
 }
 
-//چک کردن یک پراپرتی در یک آبجکت
-if('user1' in users){
-    console.log('yes')
-    console.log('user1' in users)
-}else{
-    console.log('No')
-}
+//کلون کردن آبجکت
+const admin = {...users}
+console.log(admin)
