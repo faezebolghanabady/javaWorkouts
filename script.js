@@ -18,6 +18,7 @@ const users = {
     }
 }
 
-//کلون کردن آبجکت
-const admin = {...users}
-console.log(admin)
+//template
+let admin = `hi ${users.user1.name}  welcome`
+let information = ` other admins ${ users.user2.family } and ${users.user3.family}`
+console.log(admin , information)
