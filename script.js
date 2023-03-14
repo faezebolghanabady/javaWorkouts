@@ -8,6 +8,7 @@ let users = {
         name :'sina',
         family : 'porjalal',
         id : 12 ,
+        typeOfusers:'',
 
         name :'mina',
         family : 'bolghanabady',
@@ -16,6 +17,7 @@ let users = {
         name :'ahmad',
         family : 'shams',
         id : 12 ,
+        job:''
 }
 
 let userskeys = Object.keys(users);
