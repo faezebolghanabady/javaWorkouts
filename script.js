@@ -18,6 +18,5 @@ let users = {
         id : 12 ,
 }
 
-const newUsers = { typeOfUsers:'ordinary users',...users}
-console.log(newUsers)
-
+let userskeys = Object.keys(users);
+console.log(userskeys)
