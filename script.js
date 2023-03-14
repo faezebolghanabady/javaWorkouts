@@ -1,25 +1,23 @@
 //find , findIndex
-let users = [
-    {
+let users = {
+    
         name :'faeze',
         family : 'bolghanabady',
         id : 23 ,
-    },
-    {
+
         name :'sina',
         family : 'porjalal',
-        id : 23 ,
-    },
-    {
-        name :'mahdi',
-        family : 'khomarian',
-        id : 23 ,
-    }
-]
+        id : 12 ,
 
-let admin = users.find(function(user){
-    return user.name === 'sina'
-})
+        name :'mina',
+        family : 'bolghanabady',
+        id : 23 ,
 
-console.log(admin)
+        name :'ahmad',
+        family : 'shams',
+        id : 12 ,
+}
+
+const newUsers = { typeOfUsers:'ordinary users',...users}
+console.log(newUsers)
 
