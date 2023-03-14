@@ -1,24 +1,9 @@
-//find , findIndex
-let users = {
-    
-        name :'faeze',
-        family : 'bolghanabady',
-        id : 23 ,
-
-        name :'sina',
-        family : 'porjalal',
-        id : 12 ,
-        typeOfusers:'',
-
-        name :'mina',
-        family : 'bolghanabady',
-        id : 23 ,
-
-        name :'ahmad',
-        family : 'shams',
-        id : 12 ,
-        job:''
+//نام کاربر را در آرایه جستوجو کرده درصورت عدم موجودیت کاربر را به ابتدای لیست اضافه نماید
+const users = [ 'mahdi' , 'mobin' , 'mina' , 'sina' , 'ahmad' ]
+if(users.includes('faeze')){
+    console.log('کاربر وجود دارد')
+}else{
+    console.log('کاربر وجود ندارد')
+    users.unshift('faeze')
 }
-
-let userskeys = Object.keys(users);
-console.log(userskeys)
+console.log( 'لیست جدید' + ':' +users)
