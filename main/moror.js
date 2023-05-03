@@ -6,7 +6,7 @@ const user = {
 
 console.log(user);
 
-const newUser = Object.assign({age : 23} ,user )
+const newUser = Object.assign({age : 26} ,user )
 console.log(newUser);
 
 const users = {name : 'mobin' , ...user }
