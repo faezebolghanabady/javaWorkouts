@@ -9,5 +9,5 @@ console.log(user);
 const newUser = Object.assign({age : 24} ,user )
 console.log(newUser);
 
-const users = {name : 'mobin' , ...user }
+const users = {name : 'moobin' , ...user }
     console.log(users);
